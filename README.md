@@ -1,12 +1,12 @@
 # Customer_Conversion_prediction_-Model
-##Problem Statement
+## Problem Statement
 In the insurance industry, acquiring new customers and converting leads into sales is
 crucial for business growth. The dataset provided contains information about a series
 of marketing calls made to potential customers by an insurance company. The goal is
 to predict whether a customer will subscribe to an insurance policy based on various
 attributes of the customer and details of the marketing interactions.
 
-Data Set:
+# Data Set:
 1. age: Age of the customer.
 2. job: Type of job the customer holds.
 3. marital: Marital status of the customer.
@@ -20,7 +20,7 @@ Data Set:
 11. y: Whether the customer subscribed to the insurance policy (target variable).
 
     
-Data -https://raw.githubusercontent.com/GuviMentor88/Training-Datasets/main/insurance_dataset.csv
+# Data -https://raw.githubusercontent.com/GuviMentor88/Training-Datasets/main/insurance_dataset.csv
 
 ## Libraries Used:
 
@@ -30,7 +30,7 @@ Data -https://raw.githubusercontent.com/GuviMentor88/Training-Datasets/main/insu
 * Random forest Classifier
 * Json
 
-##Approach:
+## Approach:
 1. Data Preprocessing: Clean the data, handle missing values, Scale the dataset with SMOTEEN Oversampling method
 Normalize Features(), and Lable encoder for categorical features.
 
