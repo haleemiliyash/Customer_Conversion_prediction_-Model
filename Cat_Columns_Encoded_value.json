@@ -1,0 +1,98 @@
+{
+    "job_initial": [
+        "management",
+        "technician",
+        "entrepreneur",
+        "retired",
+        "admin.",
+        "services",
+        "blue-collar",
+        "self-employed",
+        "unemployed",
+        "housemaid",
+        "student"
+    ],
+    "job_Final": [
+        4,
+        9,
+        2,
+        5,
+        0,
+        7,
+        1,
+        6,
+        10,
+        3,
+        8
+    ],
+    "marital_initial": [
+        "married",
+        "single",
+        "divorced"
+    ],
+    "marital_Final": [
+        1,
+        2,
+        0
+    ],
+    "education_qual_initial": [
+        "tertiary",
+        "secondary",
+        "primary"
+    ],
+    "education_qual_Final": [
+        2,
+        1,
+        0
+    ],
+    "call_type_initial": [
+        "unknown",
+        "cellular",
+        "telephone"
+    ],
+    "call_type_Final": [
+        2,
+        0,
+        1
+    ],
+    "mon_initial": [
+        "may",
+        "jun",
+        "jul",
+        "aug",
+        "oct",
+        "nov",
+        "dec",
+        "jan",
+        "feb",
+        "mar",
+        "apr",
+        "sep"
+    ],
+    "mon_Final": [
+        8,
+        6,
+        5,
+        1,
+        10,
+        9,
+        2,
+        4,
+        3,
+        7,
+        0,
+        11
+    ],
+    "prev_outcome_initial": [
+        "unknown",
+        "failure",
+        "other",
+        "success"
+    ],
+    "prev_outcome_Final": [
+        3,
+        0,
+        1,
+        2
+    ]
+}
