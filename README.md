@@ -31,17 +31,17 @@ attributes of the customer and details of the marketing interactions.
 * Json
 
 ## Approach:
-1. Data Preprocessing: Clean the data, handle missing values, Scale the dataset with SMOTEEN Oversampling method
+1. Data Preprocessed: Clean the data, handle missing values, Scale the dataset with SMOTEEN Oversampling method
 Normalize Features(), and Lable encoder for categorical features.
 
 2. Exploratory Data Analysis (EDA): Understand the distribution of features,
 identify patterns, and explore relationships between features and the target
 variable.
 
-3. Dataset Balancing: The target feature are Not Balanced . The imbalance of
+3. Dataset Balanced: The target feature are Not Balanced . The imbalance of
 the target variable are processed by oversampling method of SMOTTEN technique.
 
-4. Model Building: Train various machine learning models to predict the target
+4. Model Builded: Train various machine learning models to predict the target
 variable  like Logistic Regression, KNN Classification,XGB Classification,Descision Tree, Random Forest classifier
 ● Find the correlation between features by using Heat map
 ● Split the dataset into training and testing/validation sets.
@@ -52,3 +52,15 @@ groups with Kmean algorithum used.
 ● Hyperparameter Tuning: Optimize model hyperparameters using
 techniques such as cross-validation and grid search or Random search
 to find the best-performing model.
+
+5. Model Evaluation: Evaluated the models using appropriate metrics (e.g.,
+Accuracy, F1-Score, ROC-AUC) and selected the Random forest classifier With accuracy of 92.2% is best-performing model.
+
+6. Feature Importance: Identifed the Duration features that have a significant impact on the
+target variable.
+
+7. Model Deployment: Deployed the final model for use in real-time customer
+conversion prediction in straemlit web application
+
+8. Dump model: Using pickle module to dumped and loaded models for future use.
+
